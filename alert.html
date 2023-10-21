@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            color: blue;
+            background-color: blue;
+        }
+        button{
+            margin-left: 40%;
+            margin-top: 300px;
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 400px;
+            font-size: 30px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            /* background-color: blue; */
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        a{
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+
+        }
+    </style>
+</head>
+<body>
+    <button onclick="message()"> <a href="">Click Here to alert message</a></button>
+   
+</body>
+<script>
+    function message(){
+        alert("Money recieve-INR 1.2Cr in your HDFC Bank A/c XX9964")
+    }
+</script>
+</html>
